@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Images/fav.png" type="image/x-icon">
+</head>
+<body>
+    <h1>My feedback form</h1>
+    <form action="required">
+
+        <label for="name">Name :</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" name="name" id="name" placeholder="Full Name"><br><br>
+
+        <label for="email">Email :</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="email" name="email" id="email" placeholder="Email"><br><br>
+
+        <label for="pass">Password :</label> &nbsp;&nbsp;
+        <input type="password" name="pass" id="pass"><br><br>
+
+       <b> Please check all the emotion that apply you to </b><br><br>
+        <input type="radio" name="emotion" id="angry" value="Angry">
+        <label for="angry">Angry</label><br>
+
+        <input type="radio" name="emotion" id="sad" value="Sad">
+        <label for="sad">Sad</label><br>
+
+        <input type="radio" name="emotion" id="happy" value="Happy">
+        <label for="happy">Happy</label><br><br>
+
+        <b>Check all the colour you like</b><br><br>
+        <input type="checkbox" name="colour" id="red">
+        <label for="red">Red</label><br>
+        <input type="checkbox" name="colour" id="blue">
+        <label for="blue">Blue</label><br>
+        <input type="checkbox" name="colour" id="green">
+        <label for="green">Green</label><br><br>
+        <label for="comments"><b>Comments</b></label>&nbsp;
+        <textarea name="comments" id="comments" ></textarea><br><br>
+
+        <label for="car"><b> Choose a car</b></label>
+        <select name="car" id="car">
+        <option value="">Choose</option>
+        <option value="audi">Audi</option>
+        <option value="bmw">BMW</option>
+        <option value="volvo">volvo</option>
+        
+    </select><br><br>
+    <label for="date">Date</label>
+    <input type="date" name="date" id="date"><br>
+    <br><br><input type="button" value="submit">
+
+    </form>
+</body>
+</html>
